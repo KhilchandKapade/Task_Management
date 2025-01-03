@@ -1,0 +1,83 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input,
+  form textarea {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  form input:focus,
+  form textarea:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 4px rgba(76, 175, 80, 0.5);
+  }
+  
+  form button {
+    padding: 0.7rem;
+    font-size: 1.1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
+  form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+
+
+
+/* Home Page container */
+.home-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Page title styling */
+  .home-page h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Responsive adjustments for Home Page */
+  @media (max-width: 768px) {
+    .home-page {
+      padding: 1rem;
+    }
+  
+    .home-page h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
+
+
+  
