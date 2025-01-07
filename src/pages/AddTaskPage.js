@@ -4,7 +4,7 @@ import AddTask from "../components/AddTask";
 const AddTaskPage = ({ onTaskAdded }) => {
   return (
     <div>
-      <h1>Add Task</h1>
+      <h1>Add to Task</h1>
       <AddTask onTaskAdded={onTaskAdded} />
     </div>
   );
